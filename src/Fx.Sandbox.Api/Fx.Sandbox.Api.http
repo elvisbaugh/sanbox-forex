@@ -1,0 +1,6 @@
+@Fx.Sandbox.Api_HostAddress = http://localhost:5140
+
+GET {{Fx.Sandbox.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "sanbox-forex",
+			"path": "."
+		},
+		{
+			"name": "sandox-forex-ui",
+			"path": "../sandox-forex-ui"
+		}
+	],
+	"settings": {}
+}

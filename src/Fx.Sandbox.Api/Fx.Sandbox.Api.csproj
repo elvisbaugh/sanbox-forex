@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fx.Sandbox.Domain\Fx.Sandbox.Domain.csproj" />
+    <ProjectReference Include="..\Fx.Sandbox.Application\Fx.Sandbox.Application.csproj" />
+    <ProjectReference Include="..\Fx.Sandbox.Infrastructure\Fx.Sandbox.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
